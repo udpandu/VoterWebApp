@@ -1,0 +1,29 @@
+﻿@model IEnumerable<VoterWebApp.Models.Voter>
+
+@{
+    ViewData["Title"] = "Voters";
+}
+
+<h1>Voters</h1>
+
+<p>
+    <a href="/Voter/Create">Add New Voter</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Has Voted</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.HasVoted</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoterWebApp", "VoterWebApp\VoterWebApp.csproj", "{3357C514-5E2B-43A5-87E7-06CE7A1CECE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3357C514-5E2B-43A5-87E7-06CE7A1CECE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3357C514-5E2B-43A5-87E7-06CE7A1CECE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3357C514-5E2B-43A5-87E7-06CE7A1CECE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3357C514-5E2B-43A5-87E7-06CE7A1CECE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {813F4550-E3F9-48A0-9794-73557F751F6E}
+	EndGlobalSection
+EndGlobal
